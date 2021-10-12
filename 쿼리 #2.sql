@@ -7,7 +7,8 @@ CREATE TABLE t_product(
 iproduct INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
 nm	VARCHAR(8) NOT NULL,
 price INT(10) NOT NULL,
-company VARCHAR(8) NOT null);
+company VARCHAR(8) NOT NULL()
+);
 
 INSERT INTO t_product (nm,price,company)
 VALUES ("맥북프로",5000000,'apple'),
